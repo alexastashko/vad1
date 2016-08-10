@@ -5,8 +5,8 @@ var mainState = {
         // That's where we load the images and sounds 
 		// Load the bird sprite
     game.load.image('bird', 'assets/bird.jpg'); 
-	game.load.image('pipe', 'assets/pipe.png');
-	game.load.audio('jump', 'assets/jump.wav'); 
+	game.load.image('pipe', 'pipe.png');
+	game.load.audio('jump', 'jump.wav'); 
     },
 
     create: function() { 
